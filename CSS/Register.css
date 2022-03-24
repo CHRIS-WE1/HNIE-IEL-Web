@@ -1,5 +1,5 @@
 body{
-    background-image: url("../Picture/04.jpg");
+    background-image: url("../Picture/05.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     /* background-position: 50%  100%; */
@@ -49,7 +49,7 @@ form{
     border-bottom: 1px solid rgba(225,225,225,.1);
     backdrop-filter: blur(2px);
 }
-input{
+.users input{
     background-color: transparent;
     width: 100%;
     height: 50px;
@@ -60,10 +60,11 @@ input{
     color:#fff;
     
 }
-input:focus{
+.users input:focus{
     background-color: transparent;
     color:white;
 }
+
 
 .btn{
     font-size: 15px;
