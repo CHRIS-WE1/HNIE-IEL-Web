@@ -64,8 +64,25 @@ form{
     background-color: transparent;
     color:white;
 }
+input::-webkit-input-placeholder{
+    color: #fff;
+    font-size: 15px;
+}
 
+#grade,#major{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height:40px;
+    border-radius: 8px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 60%;
+}
 
+ #selection>p>select>option{
+    color: black;
+} 
 .btn{
     font-size: 15px;
     color:white;
@@ -75,7 +92,7 @@ form{
     height: 30px ;
     border: 0;
     border-radius: 8px ;
-    margin-left: 25px;
+    margin-left: 35%;
     outline: none ;
     cursor:pointer;
     box-shadow: 0px 20px 40px rgba(0,0,0,.1);
